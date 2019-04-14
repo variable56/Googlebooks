@@ -50,6 +50,7 @@ class Books extends Component {
       <Container fluid>
         <Jumbotron>
           <h1>Google Books search</h1>
+          <h3>Enter a book title below to access the Google book api.  Save books with the click of a button.</h3>
         </Jumbotron>
         <form>
           <Input
@@ -62,7 +63,7 @@ class Books extends Component {
             disabled={!this.state.searchTerm}
             onClick={this.handleFormSubmit}
           >
-            Search Google Books
+            Search API
           </FormBtn>
         </form>
 
